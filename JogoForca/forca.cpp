@@ -19,7 +19,20 @@ static string palavra_secreta;
 static map<char, bool> chutou;
 static vector<char> chutes_errados;
 
+int* funcao() {
+    int* j = new int; // Criando um heap
+    *j = 5;
+    return j;
+}
+
 int main () {
+    int* i;
+    i = funcao();
+    cout << *i << endl;
+    delete i; //deleta um heap
+//#if0 pro compilador ignorar tudo que esta dentro do if
+#if 0
+
     imprime_cabecalho();
     palavra_secreta = sorteia_palavra();
 
@@ -47,6 +60,6 @@ int main () {
             adiciona_palavra();
         }
     }
-    
+#endif
     cin.get();
 }

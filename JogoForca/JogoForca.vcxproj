@@ -28,6 +28,7 @@
     <ClCompile Include="letra_maiuscula.cpp" />
     <ClCompile Include="le_arquivo.cpp" />
     <ClCompile Include="nao_acertou.cpp" />
+    <ClCompile Include="pilha.cpp" />
     <ClCompile Include="salva_arquivo.cpp" />
     <ClCompile Include="sorteia_palavra.cpp" />
   </ItemGroup>
