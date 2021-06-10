@@ -39,13 +39,13 @@
     <ClCompile Include="nao_acertou.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="nao_enforcou.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
     <ClCompile Include="salva_arquivo.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
     <ClCompile Include="sorteia_palavra.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="letra_maiuscula.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,13 +74,13 @@
     <ClInclude Include="nao_acertou.hpp">
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
-    <ClInclude Include="nao_enforcou.hpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
     <ClInclude Include="salva_arquivo.hpp">
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
     <ClInclude Include="sorteia_palavra.hpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+    <ClInclude Include="letra_maiuscula.hpp">
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
   </ItemGroup>
